@@ -6,10 +6,13 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Rama Estudiantil IEEE-ESPOL</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="http://sites.ieee.org/sb-wayne/files/2016/03/cropped-IEEE-Icon.png">
+  <script type="text/javascript" src="script.js">
+
+</script> 
 </head>
 
-<body>
-
+<body onLoad="Defaults()">
 	<div id="ieee_menu_wrapper">
 		<div id="ieee_menu">
 
@@ -32,8 +35,39 @@
 			</ul>
 
 		</div>
-		
+    <div id="contenedor1">
+      <h1>IEEE-ESPOL</h1>
+      <img src="https://scontent.fuio13-1.fna.fbcdn.net/v/t1.0-9/36514933_2001374753247330_1475153513343352832_o.jpg?_nc_cat=108&oh=15e9cb321e06747af797aa832b2db20a&oe=5C875326">
+      <p>Toma el siguiente paso y vive una experiencia más allá de la académica, en la cual podrás aplicar las habilidades que aprendas dentro y fuera del aula para que puedas liderar e impactar el mundo que te rodea. Aprovecha de todos los beneficios que IEEE tiene para ti y haz nuevos amigos que aportarán a tu futuro profesional</p>
+    </div>
+    <div id="contenedor2">
+      <div id=NavBar style="position:relative;width:286px;top:5px;" align="left">
+<form name="when"><table>
+<tr>
+   <td><input type="button" value="<-- Last" onClick="Skip('-')"></td>
+   <td> </td>
+   <td><select name="month" onChange="On_Month()">
+
+<script language="JavaScript1.2">
+if (ie4||ns6){
+   for (j=0;j<Month_Label.length;j++) {
+      document.writeln('<option value=' + j + '>' + Month_Label[j]);
+   }
+}
+</script>
+
+       </select>
+   </td>
+   <td><input type="text" name="year" size=4 maxlength=4 onKeyPress="return Check_Nums()" onKeyUp="On_Year()"></td>
+   <td> </td>
+   <td><input type="button" value="Next -->" onClick="Skip('+')"></td>
+</tr></table></form></div>
+<div id=Calendar style="position:relative;width:238px;top:-2px;" align="left"></div>
+    </div>
 	</div>
+  
+ 
 </body>
+
 
 </html>

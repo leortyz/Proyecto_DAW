@@ -1,3 +1,8 @@
+* { 
+        margin:0;
+        padding:0;
+      }
+
 body {
 	margin: 0;
 	padding: 0;
@@ -51,3 +56,42 @@ body {
 	font-weight: bold;
 	outline: none;
 }
+#ieee_menu li a:hover{
+   background-color: #74DBEF;
+   color: #ffffff;
+}
+#contenedor1{
+  margin:0 auto;
+  float:left;
+  height:1000px;
+  padding:20px;
+  width:500px;
+}
+#contenedor1 h1{
+  font-size:60px;
+  text-align:center;
+  position:relative;
+}
+#contenedor1 p{
+  position:relative;
+  text-align:justify;
+  font-size:20px;
+}
+#contenedor1 img{
+  width:500px;
+}
+#contenido2 {
+        background-color:#ddd;
+        float:right;
+        height:300px;
+        padding:20px;
+        width:300px;
+      }
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
