@@ -56,6 +56,13 @@ body {
 	font-weight: bold;
 	outline: none;
 }
+
+#ieee_menu ul li a img{
+	position: relative;
+	float: center;
+	width: 20px;
+	height:20px;
+}
 #ieee_menu li a:hover{
    background-color: #74DBEF;
    color: #ffffff;
@@ -63,7 +70,7 @@ body {
 #contenedor1{
   margin:0 auto;
   float:left;
-  height:1000px;
+  height:475px;
   padding:20px;
   width:500px;
 }
@@ -80,13 +87,18 @@ body {
 #contenedor1 img{
   width:500px;
 }
-#contenido2 {
-        background-color:#ddd;
+#contenedor2 {
+    position:relative;
+        background-color:#74DBEF;
         float:right;
-        height:300px;
-        padding:20px;
-        width:300px;
+        height:500px;
+        padding:40px;
+        width:700px;
       }
+#contenedor2 img{
+  height:50%;
+  width:50%;
+}
 footer {
   position: relative;
   bottom: 0;
