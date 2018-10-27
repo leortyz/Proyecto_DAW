@@ -6,13 +6,13 @@
    align-items: center;
 }
 h1{
-  font-size: 30px
+  font-size: 22px
   text-align: center;
 }
 
 #descripcion{
 font-size: 20px;
-margin: 50px;
+margin: 20px;
 padding: 10px;
 text-align: center;
 border-top: 2px gainsboro solid;
@@ -22,11 +22,13 @@ section{
     text-align: center;
 }
 section[id^="picture-"]{
-  border: 1px gainsboro solid;
+  
   width: 200px;
   box-shadow: 3px 2px #eeeeee;
   border-radius: 10px;
+  padding: 10px;
   float: left;
+
 }
 p{
   text-align: justify;
@@ -46,8 +48,9 @@ div[id^="free-image"] {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width:  200px;
-  height: 140px;
+  width:200px;
+  height:200px;
+  border-radius: 100px;
 }
 #free-image1 {
   background-image: url("https://scontent.fuio13-1.fna.fbcdn.net/v/t1.0-9/13325624_10153803163559862_8668613668331912130_n.jpg?_nc_cat=107&_nc_ht=scontent.fuio13-1.fna&oh=1ea39f3256c0421286672a1a8e038f07&oe=5C44A0F6");
