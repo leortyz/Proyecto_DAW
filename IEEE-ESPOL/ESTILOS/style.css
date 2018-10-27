@@ -19,6 +19,11 @@ html {
   position: relative;
 }
 
+#fondo{
+	width: 100%;
+	height: 100%;
+
+}
 
 
 #ieee_wrapper {
