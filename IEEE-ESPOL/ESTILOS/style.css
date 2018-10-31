@@ -71,7 +71,7 @@ html {
 	outline: none;
 }
 
-ieee_menu_redes ul {
+#ieee_menu_redes ul {
 	float: left;
 	margin: 0px;
 	padding: 0px;
@@ -109,4 +109,10 @@ footer {
   height: 40px;
   color: white;
   
+}
+p{
+	padding: 50px;
+}
+h1{
+	padding: 0 0 0 50px;
 }
