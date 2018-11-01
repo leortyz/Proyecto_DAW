@@ -29,15 +29,6 @@ section[id^="picture-"]{
 
 }
 
-h2{
-
-font-size: 14px;
-}
-
-h3{
-
-font-size: 18px;
-}
 
 div[id^="free-image"] {
   background-repeat: no-repeat;
