@@ -1,17 +1,17 @@
 body {
   margin: 0;
-	padding: 0;
-	line-height: 1.7em;
-	color: #264E86;
-	background: #EFF0F4;
+  padding: 0;
+  line-height: 1.7em;
+  color: #264E86;
+  background: #EFF0F4;
   margin-bottom: 40px;
 }
 
 #seccion_redes{
-	margin: 0 auto;
-	padding: 0 30px;
+  margin: 0 auto;
+  padding: 0 30px;
     display: inline;
-	
+  
 }
 html {
   min-height: 100%;
@@ -20,62 +20,62 @@ html {
 }
 
 #fondo{
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 
 }
 
 
 #ieee_wrapper {
-	width: 100%;
-	height: 90px;
-	margin: 0 auto;
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
 
 }
 #ieee_menu{
-	width: 920px;
-	height: 90px;
-	margin: 0 auto;
-	padding: 0 30px;
-	
+  width: 920px;
+  height: 90px;
+  margin: 0 auto;
+  padding: 0 30px;
+  
 }
 
 
 
 #ieee_menu ul {
-	float: left;
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
   
 }
 
 #ieee_menu ul li {
-	padding: 0px;
-	margin: 0px;
-	display: inline;
+  padding: 0px;
+  margin: 0px;
+  display: inline;
 }
 
 #ieee_menu ul li a {
 
-	float: left;
-	width: 152px;
-	display: block;
-	height: 40px;
-	padding: 50px 0 0 0;
-	text-align: center;
-	font-size: 18px;
-	text-decoration: none;
-	color: #264E86;	
-	font-weight: bold;
-	outline: none;
+  float: left;
+  width: 152px;
+  display: block;
+  height: 40px;
+  padding: 50px 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #264E86; 
+  font-weight: bold;
+  outline: none;
 }
 
 #ieee_menu_redes ul {
-	float: left;
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
   }
 
 #ieee_menu_redes ul li {
@@ -89,15 +89,22 @@ html {
 
 
 #ieee_menu_redes ul li a img{
-	position: relative;
-	width: 20px;
-	height:20px;
+  position: relative;
+  width: 20px;
+  height:20px;
   
   
 }
 #ieee_menu li a:hover{
    background-color: #74DBEF;
    color: #ffffff;
+}
+
+p{
+  padding: 20px;
+}
+h1{
+  padding: 0 0 0 50px;
 }
 
 footer {
@@ -109,10 +116,4 @@ footer {
   height: 40px;
   color: white;
   
-}
-p{
-	padding: 50px;
-}
-h1{
-	padding: 0 0 0 50px;
 }
