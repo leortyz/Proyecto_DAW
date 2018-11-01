@@ -18,9 +18,7 @@ text-align: center;
 border-top: 2px gainsboro solid;
 
 }
-section{
-    text-align: center;
-}
+
 section[id^="picture-"]{
   
   width: 200px;
@@ -29,9 +27,6 @@ section[id^="picture-"]{
   padding: 10px;
   float: left;
 
-}
-p{
-  text-align: justify;
 }
 
 h2{
