@@ -64,14 +64,6 @@
 transform: rotateY(180deg);
 transform-style: preserve-3d;}
 
-.imagenprincipal{
-  content: url("https://scontent.fgye1-1.fna.fbcdn.net/v/t31.0-8/27982942_10215396593365908_6963865114938443281_o.jpg?_nc_cat=102&_nc_ht=scontent.fgye1-1.fna&oh=f964a6873d6934c9ac488168d7e86067&oe=5C3EC353");
-  
-  max-width:100%;
-  max-height:25%;
-  margin:10px auto;
-  display:block;
-}
 .free-image1 {
   content:url("https://scontent.fuio13-1.fna.fbcdn.net/v/t1.0-9/13325624_10153803163559862_8668613668331912130_n.jpg?_nc_cat=107&_nc_ht=scontent.fuio13-1.fna&oh=1ea39f3256c0421286672a1a8e038f07&oe=5C44A0F6");
 }
