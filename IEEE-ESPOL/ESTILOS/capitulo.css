@@ -2,19 +2,15 @@
 .gallery-title
 {
     font-size: 36px;
-    color: #42B32F;
+    color:#264E86;
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
+    border-bottom: 2px gainsboro solid;
+    margin: 20px;
+    padding: 10px;
 }
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
+
 .port-image
 {
     width: 100%;

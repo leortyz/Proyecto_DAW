@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
   margin: 0;
   padding: 0;
   line-height: 1.7em;
-  color: #264E86;
   background: #EFF0F4;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
+  font-family: 'Roboto';
 }
 
 #seccion_redes{
   margin: 0 auto;
   padding: 0 30px;
-    display: inline;
+  display: inline;
   
 }
 html {
@@ -102,9 +104,6 @@ html {
 
 p{
   padding: 20px;
-}
-h1{
-  padding: 0 0 0 50px;
 }
 
 footer {
