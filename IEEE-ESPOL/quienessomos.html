@@ -5,49 +5,55 @@
     <meta name="viewport" content="width=device-width">
     <title>Quienes Somos</title>
     <link href="css/quienesomos.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />       
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="shortcut icon" href="http://sites.ieee.org/sb-wayne/files/2016/03/cropped-IEEE-Icon.png">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.2/css/all.css' integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns' crossorigin='anonymous'>
   </head>
   <body>
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="principal.html">HOME</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
-            <li><a href="capitulos.html">CAPITULOS</a></li>
-            <li><a href="eventos.html">EVENTOS</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
-            <li>
-              <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">EVENTOS PROXIMOS</a>
-            </li>
-          </ul>
-          <ul class="collapse nav navbar-nav nav-collapse" id="nav-collapse1">
-            <li><a href="#">EVENTO 1</a></li>
-            <li><a href="#">EVENTO 2</a></li>
-            <li><a href="#">EVENTO 3</a></li>
-            <li><a href="#">EVENTO 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>   
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <div class="container">
+            <div class="row" id="top">
+                <section id="top" class="col-md-12">
+                    <div class="row">
+                        <ul class="col-md-8 list-inline menu_redes">
+                                <li>
+                                  <a href="https://www.facebook.com/ieee.espol/"><i class="fab fa-facebook-square icono"></i></a>
+                                </li>
+                                <li>
+                                  <a href="https://www.instagram.com/ieee.espol/"><i class="fab fa-instagram icono"></i></a>
+                                </li>
+                                <li>
+                                  <a href="https://twitter.com/ieee_espol"><i class="fab fa-twitter-square icono"></i></a>
+                                </li>
+                                                       
+                        </ul>
+                        <form class="col-md-4 busqueda">
+                            <input type="text" placeholder="Buscar.." name="busar">
+                            <button type="button" class="btn btn-default " id="buscar">
+                             <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>                    
+                </section>      
+            </div>
+  <div class="row sticky-top">
+                <nav class="navbar navbar-expand-sm navbar-dark  col-md-12">
+                  <a class="navbar-brand home" href="principal.html"><i class="fas fa-home"></i></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="list-inline navbar-nav mx-auto">
+                                <li class="list-inline-item nav-intem active"><a href="quienessomos.html" class="nav-link">QUIENES SOMOS</a></li>
+                                <li class="list-inline-item nav-intem active"><a href="capitulos.html" class="nav-link">CAPITULOS</a></li>
+                                <li class="list-inline-item nav-intem active"><a href="eventos.html" class="nav-link">EVENTOS</a></li>
+                                <li class="list-inline-item nav-intem active"><a href="contacto.html" class="nav-link">CONTACTO</a></li>
+                        </ul>    
+                    </div>                    
+                </nav>
+  </div>               
     <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="gallery-title">QUIENES SOMOS</h1>
@@ -162,7 +168,7 @@
                 
         </div>
         
-        
+        </div>
      </div>
     <footer>
     Copyright &copy; 2018-2019

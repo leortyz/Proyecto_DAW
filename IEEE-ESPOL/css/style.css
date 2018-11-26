@@ -1,83 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-.navbar-brand { position: relative; z-index: 2; }
 
-.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; }
-
-.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
-.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
-
-.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
-.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
-.navbar.navbar-inverse .nav-collapse { background-color: #222; }
-.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
-.nav-collapse>li { float: right; }
-
-.btn.btn-circle { border-radius: 50px; }
-.btn.btn-outline { background-color: transparent; }
-
-.navbar-nav.navbar-right .btn:not(.collapsed) {
-    background-color: rgb(111, 84, 153);
-    border-color: rgb(111, 84, 153);
-    color: rgb(255, 255, 255);
-}
-
-.navbar.navbar-default .nav-collapse,
-.navbar.navbar-inverse .nav-collapse {
-    height: auto !important;
-    transition: transform 0.3s;
-    transform: translate(0px,-50px);
-}
-.navbar.navbar-default .nav-collapse.in,
-.navbar.navbar-inverse .nav-collapse.in {
-    transform: translate(0px,0px);
-}
-
-
-@media screen and (max-width: 767px) {
-    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
-    
-    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
-    .navbar .nav-collapse .navbar-form { margin: 0; }
-    .nav-collapse>li { float: none; }
-   
-    .navbar.navbar-default .nav-collapse,
-    .navbar.navbar-inverse .nav-collapse {
-        transform: translate(-100%,0px);
-    }
-    .navbar.navbar-default .nav-collapse.in,
-    .navbar.navbar-inverse .nav-collapse.in {
-        transform: translate(0px,0px);
-    }
-    
-    .navbar.navbar-default .nav-collapse.slide-down,
-    .navbar.navbar-inverse .nav-collapse.slide-down {
-        transform: translate(0px,-100%);
-    }
-    .navbar.navbar-default .nav-collapse.in.slide-down,
-    .navbar.navbar-inverse .nav-collapse.in.slide-down {
-        transform: translate(0px,0px);
-    } 
-}
 body {
-  margin: 0;
-  padding: 0;
-  line-height: 1.7em;
-  background: #EFF0F4;
-  margin-bottom: 40px; 
+  
+  background: #EFF0F4; 
   font-family: 'Roboto';
 }
 
-#seccion_redes{
-  margin: 0 auto;
-  padding: 0 30px;
-  display: inline;
-  
-}
-html {
-  min-height: 100%;
-  min-width: 100%;
-  position: relative;
-}
+
 
 #fondo{
   width: 100%;
@@ -85,84 +14,39 @@ html {
 
 }
 
+#top{
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-left: 0;
+  padding-left: 0;
 
-#ieee_wrapper {
-  width: 100%;
-  height: 90px;
-  margin: 0 auto;
+
 
 }
-#ieee_menu{
-  width: 920px;
-  height: 90px;
-  margin: 0 auto;
-  padding: 0 30px;
-  
+
+#buscar{
+  background-color:  transparent;
+  color: #264E86 ;
+  border-bottom-color: #264E86
+  padding-bottom:2px;
 }
 
+#buscar i{
+  font-size: 15pts
 
+}
+.menu_redes li{
+  padding-left: 10px;
+  float: right;
+}
 
-#ieee_menu ul {
+.busqueda{
+  margin-left:0;
+  padding-left: 0; 
   float: left;
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+}
+ 
   
-}
-
-#ieee_menu ul li {
-  padding: 0px;
-  margin: 0px;
-  display: inline;
-}
-
-#ieee_menu ul li a {
-
-  float: left;
-  width: 152px;
-  display: block;
-  height: 40px;
-  padding: 50px 0 0 0;
-  text-align: center;
-  font-size: 18px;
-  text-decoration: none;
-  color: #264E86; 
-  font-weight: bold;
-  outline: none;
-}
-
-#ieee_menu_redes ul {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  }
-
-#ieee_menu_redes ul li {
-  display: inline;
-  
-}
-#ieee_menu_redes ul li a {
- float: left;
-  padding: 0px 10px;
-}
-
-
-#ieee_menu_redes ul li a img{
-  position: relative;
-  width: 20px;
-  height:20px;
-  
-  
-}
-#ieee_menu li a:hover{
-   background-color: #74DBEF;
-   color: #ffffff;
-}
-
-p{
-  padding: 20px;
-}
 footer {
   background-color:#264E86;
   position: fixed;
@@ -172,4 +56,29 @@ footer {
   height: 40px;
   color: white;
   
+}
+
+
+.icono{
+  font-size: 20pt;
+}
+.home{
+    margin-left: 15px;
+}
+
+.navbar-nav{
+  padding-bottom: 0px;
+  padding-top: 0px;
+
+}
+nav{
+  background-color: #264E86;
+  text-align: right;
+}
+
+.navbar-nav li{
+display: inline;
+text-align: center;
+margin: 0 0 0 0;
+padding: 0;
 }
