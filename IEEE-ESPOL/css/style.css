@@ -42,16 +42,7 @@ body {
 }
 
 
-  
-footer{
-  background-color: #264E86; padding: 25px; color: white;
-  font-size: 11pt;
-}
 
-ul, li{
-  list-style-type: none;
-}
-       .list{margin-top: 15px;}
 
 .icono{
   font-size: 15pt;
@@ -78,3 +69,45 @@ margin: 0 0 0 0;
 padding: 0;
 }
 
+footer{
+     background-color: #264E86;  color: white;
+     
+}        
+
+.we span , .contact span , .social span{
+   color: #FFF; 
+   font-weight: 800; 
+   padding:20px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+
+.we li , .contact li , .social li {
+    padding:5px 0px;
+    list-style: none;
+}
+
+.we li p , .contact li a , .social li a{
+    color:#FFF;
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.social li{
+    float:left;
+}
+
+.social .fa{
+    color:#9c9c9c;
+    margin-right: 10px;
+    font-size:22px;
+}
+
+.i{
+  color: white;
+  margin-right: 10px;
+    font-size:22px;
+}
