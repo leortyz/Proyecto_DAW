@@ -1,4 +1,4 @@
-//https://twitrss.me/twitter_user_to_rss/?user=ieee_espol
+//https://twitrss.me/twitter_user_to_rss/?user=ieee_espol 
 function addNew(autor,fecha, descripcion) {
 
   var date = $("<time/>", {
@@ -29,15 +29,15 @@ function addNew(autor,fecha, descripcion) {
   li.appendTo("#lineTime");
 }
 
-function loadNewsXml() {
+function loadXml() {
   $.ajax({
     type: "GET",
-    url: "https://twitrss.me/twitter_user_to_rss/?user=ieee_espol",
+    url: "https://twitrss.me/twitter_user_to_rss/?user=computer_espol",
     dataType: "xml",
     success: function (xml) {
     	var counter=0
       $(xml).find('item').each(function () {
-      	if(counter<5){
+      	if(counter<3){
         var autor = $(this).find('dc\\:creator').text();
         var newAutor= autor.slice(2,-1);
         var descripcion = $(this).find('description').text();
@@ -68,6 +68,5 @@ function loadNewsXml() {
 
 
 $(document).ready(function(){
-  loadNewsXml();
-  alert("hola");
+  loadXml();
 });
