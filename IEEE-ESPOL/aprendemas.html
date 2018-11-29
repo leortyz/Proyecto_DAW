@@ -60,9 +60,9 @@
                 </nav>
   </div>
       <div class="row">
-        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2">
             <h1 class="gallery-title">Familia IEEE - ESPOL</h1>
-            <p id="descripcion" class="text-center mt-3">
+            <p id="descripcion" class="text-center m+3">
              <img src="images/ieee.jpg" class="img-responsive col-sm-5">
              <br> 
             La Rama Estudiantil IEEE - ESPOL ha participado en múltiples eventos tanto nacionales como internacionales, obteniendo premios y diferentes reconocimientos como diplomas, trofeos, medallas y más.
@@ -82,7 +82,7 @@
                 yScale = d3.scaleLinear().range([height, 0]);
                 var g = svg.append("g")
                 .attr("transform", "translate(" + 100 + "," + 100 + ")");
-                d3.csv("miembros.csv", function(error, data) {
+                d3.csv("data/miembros.csv", function(error, data) {
                 if (error) {
                 throw error;
               }
