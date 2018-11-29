@@ -26,19 +26,12 @@
 
 }
 
-.gallery_product > .img-responsive{
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3px;
-    max-width: 365;
-    max-height: 365;
-    min-width: 350;
-    min-height: 350;
-}
 
 
-.img-responsive:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2); 
+@media only screen and (min-width: 800px) {
+    .img-fluid:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
+}   
 }
