@@ -1,6 +1,6 @@
 .gallery-title
 {
-    font-size: 36px;
+    font-size: 24px;
     color:#264E86;
     text-align: center;
     font-weight: 500;
@@ -10,11 +10,7 @@
     padding: 10px;
 }
 
-.port-image
-{
-    width: 100%;
 
-}
 
 
 .gallery_product
@@ -25,13 +21,18 @@
     max-height: 350;
 
 }
-.axis {
-      font: 10px sans-serif;
+
+.bar {
+    fill: #0074E4;
     }
 
-    .axis path,
-    .axis line {
-      fill: none;
-      stroke: #000;
-      shape-rendering: crispEdges;
-    }
+.grafico{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+footer{
+    margin:0;
+    padding: 0;
+}
