@@ -9,23 +9,23 @@ function addNew(titulo,descripcion,imagen,valor){
       html: contenido
     })
     var img=$("<img/>",{
-    	"class"="group list-group-image img-fluid",
-    	"src"=imagen,
-    	"alt"=""
+    	"class":"group list-group-image img-fluid",
+    	"src": imagen,
+    	"alt":""
 
     })
-    var = divG=$("<div/>",{
-    	"class"="item col-xs-4 col-lg-4"
+    var divG=$("<div/>",{
+    	"class":"item col-xs-4 col-lg-4"
     })
     var divtc=$("<div/>",{
-    	"class"="thumbnail card"
+    	"class":"thumbnail card"
     })
 
     var divImg =$("<div/>",{
-    	"class"="img-event"
+    	"class":"img-event"
     })
     var divAc=$("<div/>",{
-    	"class"="caption card-body"
+    	"class":"caption card-body"
     })
     var div1 = $( "<div/>", {
       "class": "row"
@@ -40,12 +40,12 @@ function addNew(titulo,descripcion,imagen,valor){
     });
 
     var precio=$("<p/>",{
-    	"class"="lead",
+    	"class":"lead",
     	html: valor
     })
     var btn=$("<a/>",{
-    	"class"="btn btn-success",
-    	"href"="http://www.jquery2dotnet.com",
+    	"class":"btn btn-success",
+    	"href":"http://www.jquery2dotnet.com",
     	html: "Inscribirse"
     })
 
@@ -66,6 +66,7 @@ function addNew(titulo,descripcion,imagen,valor){
 
 
 function loadNewsJson() {
+    alert("hola")
    $.getJSON( "eventos.json", function( data ) {
     
       $.each( data, function( key, val ) {

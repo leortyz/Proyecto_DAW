@@ -2,28 +2,31 @@
 function addNew(autor,fecha, descripcion) {
 
   var date = $("<time/>", {
-    "class": "col-6 col-sm-6",
+    "class": "col-md-6 col-lg-6 col-sm-12",
     "datetime":fecha,
-    "style": "font-style: italic;",
+    "style": "font-style: italic;padding:10px; ",
     html: fecha
   })
 
   var autor= $("<p/>", {    
-    "class": "col-6 col-sm-6",
+    "class": "col-md-6 col-lg-6 col-sm-12",
+    "style": "padding:10px; ",
     html: autor+" dijo:"
   }) 
 
   var p = $("<p/>", {    
-    "class": "text-justify card-body col-md-12 col-sm-12 col-12 row",
+    "class": "text-justify card-body col-md-12 col-lg-12 col-sm-12 row",
+    "style":"padding:15px;",
     html: descripcion
   })  
   var div = $("<div/>", {
-    "class": "card-body col-md-12 col-sm-12 col-12 row"
+    "class": "card-body col-md-12 col-lg-12 col-sm-12 row",
+    "style":"padding:5px;"
   });
   var li = $("<li/>", {
   });
-  autor.appendTo(div);
   date.appendTo(div);
+  autor.appendTo(div);
   div.appendTo(li);
   p.appendTo(li);
   li.appendTo("#lineTime");
@@ -68,5 +71,6 @@ function loadXml() {
 
 
 $(document).ready(function(){
+  alert("hola")
   loadXml();
 });
