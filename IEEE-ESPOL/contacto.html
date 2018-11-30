@@ -45,12 +45,11 @@
                                 <li class="list-inline-item nav-intem active"><a href="quehacemos.html" class="nav-link">QUE HACEMOS</a></li>
                                 <li class="list-inline-item nav-intem active"><a href="capitulos.html" class="nav-link">CAPITULOS</a></li>
                                 <li class="list-inline-item nav-intem active"><a href="eventos.html" class="nav-link">EVENTOS</a></li>
-                                <li class="list-inline-item nav-intem active"><a href="contacto.html" class="nav-link">ÚNETE</a></li>
+                                <li class="list-inline-item nav-intem active"><a href="contacto.html" class="nav-link">CONTACTO</a></li>
                         </ul>    
                     </div> 
                     <form class=" busqueda">
-                                    <input type="text" placeholder="Buscar.." name="busar">
-                                    <button type="button" class="btn btn-default left  " id="buscar">
+                                    <button type="button" class="btn btn-default left  " id="buscar" onclick="location.href='eventos.html'">
                                     <i class="fas fa-search"></i>
                                     </button>
                                   </form>                   
@@ -58,7 +57,7 @@
   </div>
     <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="gallery-title">ÚNETE</h1>
+            <h1 class="gallery-title">CONTACTO</h1>
         </div>
     </div>
     <p class="m-3">Haz parte de la red profesional mas grande del mundo, te invitamos a ser voluntario en una de las rama estudiantiles más grandes de latinoamérica.
@@ -70,19 +69,53 @@ Si quieres conocer acerca de los capítulos estudiantiles activos en la rama y s
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1301.9989592657892!2d-79.96682391786216!3d-2.1452460835814655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73023b0a662f%3A0xcda68ef16e1dc94c!2sRama+Estudiantil+IEEE-ESPOL!5e0!3m2!1ses!2sec!4v1540999165207" width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="col-md-5 mi">
-          <h4 >Contáctenos</h4>
+          <h4 >Escribenos</h4>
         <form>
           <div class="form-group">
-            <input type="text" class="form-control" name="" value="" placeholder="Nombre">
+            <input type="text" class="form-control required" minlength=”4” name="" value="" placeholder="Nombre" for="nombre">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+            <input type="email" class="form-control required" name="" value="" placeholder="E-mail">
           </div>
           <div class="form-group">
-            <input type="tel" class="form-control" name="" value="" placeholder="Número Celular">
+            <input type="tel" class="form-control required" name="" value="" placeholder="Número Celular">
           </div>
           <div class="form-group">
+            <label >Fecha de nacimiento:</label>
+            <input class="text-center form-control" type="date" id="bday" name="bday">
+          </div>
+          <div class="form-group">
+            <label >Lugar de residencia:</label>
+            <select name="OS" class="text-center form-control">
+               <option selected value="0"> Elige una opción </option>
+                   <optgroup label="Costa"> 
+                   <option value="1">Windows Vista</option> 
+                   <option value="2">Windows 7</option> 
+                   <option value="3">Windows XP</option> 
+               </optgroup> 
+               <optgroup label="Sierra"> 
+                   <option value="10">Fedora</option> 
+                   <option value="11">Debian</option> 
+                   <option value="12">Suse</option> 
+               </optgroup> 
+               <optgroup label="Amazonia"> 
+                   <option value="10">Fedora</option> 
+                   <option value="11">Debian</option> 
+                   <option value="12">Suse</option> 
+               </optgroup> 
+               <optgroup label="Insular"> 
+                   <option value="10">Fedora</option> 
+                   <option value="11">Debian</option> 
+                   <option value="12">Suse</option> 
+               </optgroup> 
+            </select>
+          </div>
+          <div class="form-grouprequired">
             <textarea class="form-control" name="" rows="3" placeholder="Mensaje"></textarea>
+          </div>
+          <div class="form-group">
+            <label class="text-center form-contro">Anadir imagen</label>
+            <input class="text-center form-contro" name="archivo" type="file" id="archivo1">
           </div>
           <button class="btn btn-default" type="Enviar" name="button">
               <i class="fab fa-telegram-plane" aria-hidden="true"></i> Enviar

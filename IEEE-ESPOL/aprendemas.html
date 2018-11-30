@@ -48,12 +48,11 @@
                                 <li class="list-inline-item nav-intem active"><a href="quehacemos.html" class="nav-link">QUE HACEMOS</a></li>
                                 <li class="list-inline-item nav-intem active"><a href="capitulos.html" class="nav-link">CAPITULOS</a></li>
                                 <li class="list-inline-item nav-intem active"><a href="eventos.html" class="nav-link">EVENTOS</a></li>
-                                <li class="list-inline-item nav-intem active"><a href="contacto.html" class="nav-link">ÚNETE</a></li>
+                                <li class="list-inline-item nav-intem active"><a href="contacto.html" class="nav-link">CONTACTO</a></li>
                         </ul>    
                     </div> 
                     <form class=" busqueda">
-                                    <input type="text" placeholder="Buscar.." name="busar">
-                                    <button type="button" class="btn btn-default left  " id="buscar">
+                                    <button type="button" class="btn btn-default left  " id="buscar" onclick="location.href='eventos.html'">
                                     <i class="fas fa-search"></i>
                                     </button>
                                   </form>                   
@@ -87,7 +86,7 @@
                 throw error;
               }
               xScale.domain(data.map(function(d) { return d.year; }));
-              yScale.domain([0, 130]);
+              yScale.domain([0, 110]);
                 g.append("g")
                  .attr("transform", "translate(0," + height + ")")
                  .call(d3.axisBottom(xScale));
